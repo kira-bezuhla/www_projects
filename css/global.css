@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Montserrat:wght@400;500;600&display=swap');
+
+:root {
+  --color-dark-navy: #202940;  
+  --color-dark-brown: #4B4038; 
+  --color-taupe: #9A8678;      
+  --color-beige: #CAAA98;
+
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Montserrat', sans-serif;
+}
+
+*,
+ *::before,
+ *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-dark-navy);
+  color: var(--color-beige);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4{
+  font-family: var(--font-heading);
+  color: var(--color-taupe);
+  letter-spacing: 1px;
+}
+
+header {
+  background-color: var(--color-dark-brown);
+  padding: 1rem 2rem;
+  border-bottom: 2px solid var(--color-taupe);
+}
+
+header nav a {
+  color: var(--color-beige);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: var(--color-taupe);
+}
+
+
+footer {
+  margin-top: auto; 
+  background-color: var(--color-dark-brown);
+  padding: 1rem 2rem;
+  border-top: 2px solid var(--color-taupe);
+  text-align: right;
+  font-size: 0.9rem;
+  color: var(--color-taupe);
+}
