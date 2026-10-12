@@ -1,3 +1,5 @@
+@import url("css/global.css");
+
 #powitanie1{
     text-align: center;
     margin: 25px;
@@ -15,4 +17,38 @@
 
 #zdjhp1:hover{
     opacity: 75%;
+}
+
+.character{
+    border-radius: 5px;
+    border-color: var(--color-beige);
+    border-width: 3px;
+    border-style: solid;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.character-inside-left, .character-inside-center, .character-inside-right{
+    padding:30px;
+}
+
+.character-inside-center{
+    max-width:30%;
+}
+
+#imielewo {
+    font-family:var(--font-heading);
+    font-size: 30px;
+    text-align: center;
+}
+
+.photo-main{
+    width:100%;
+}
+
+#opisprawo {
+    text-align:center;
 }
