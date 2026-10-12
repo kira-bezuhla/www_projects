@@ -27,8 +27,8 @@
     margin: 15px;
     display: flex;
     flex-direction: row;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .character-inside-left, .character-inside-center, .character-inside-right{
