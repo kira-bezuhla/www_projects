@@ -35,7 +35,7 @@
     padding:30px;
 }
 
-.character-inside-center{
+.character-inside-left {
     max-width:30%;
 }
 
@@ -47,8 +47,25 @@
 
 .photo-main{
     width:100%;
+    border-radius: 5px;
 }
 
 #opisprawo {
     text-align:center;
+}
+
+@media (max-width:768px) {
+    .character {
+        flex-direction: column;
+    }
+    .character-inside-left{
+        max-width: auto;
+    }
+    .character-inside-left, .character-inside-center, .character-inside-right{
+        padding: 10px;
+    }
+    .photo-main{
+        height:100%;
+        width:100%;
+    }
 }
