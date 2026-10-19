@@ -61,3 +61,7 @@ footer {
   font-size: 0.9rem;
   color: var(--color-taupe);
 }
+
+a {
+  color: var(--color-beige);
+}
