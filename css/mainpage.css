@@ -73,3 +73,24 @@
         min-width: 70vw;
     }
 }
+
+.top-row, .card{
+    margin-bottom:20px;
+}
+
+.card-body, .card-footer, .btn-primary{
+    background-color: var(--color-dark-navy);
+    color: var(--color-beige);
+}
+
+.card, .btn-primary{
+    border-color: var(--color-beige);
+}
+
+.card-footer{
+    border-top: none;
+}
+
+.btn-primary{
+    font-weight: bold;
+}
